@@ -354,7 +354,7 @@ Header Style
 }
 
 .header-area .main-nav .logo {
-  margin-top: 25px;
+  margin-bottom: 5px;
   flex-basis: 20%;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -363,7 +363,7 @@ Header Style
 }
 
 .background-header .main-nav .logo {
-  margin-top: 10px;
+  margin-top: 0px;
 }
 
 .header-area .main-nav .nav {
@@ -1064,7 +1064,7 @@ Infos Style
 }
 
 .infos .main-content .left-image {
-  background-image: url(../images/left-infos.jpg);
+  background-image: url(../images/banner.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -1115,27 +1115,33 @@ Infos Style
   top: -25px;
 }
 
-.infos .main-content .marketing .fill {
+.infos .main-content .html .fill {
   width: 90%;
 }
 
-.infos .main-content .digital .fill {
+.infos .main-content .css .fill {
   width: 80%;
 }
 
-.infos .main-content .media .fill {
+.infos .main-content .javascript .fill {
   width: 95%;
 }
+.infos .main-content .react .fill {
+  width: 75%;
+}
 
-.infos .main-content .marketing span {
+.infos .main-content .html span {
   right: 10%;
 }
 
-.infos .main-content .digital span {
+.infos .main-content .css span {
   right: 20%;
 }
 
-.infos .main-content .media span {
+.infos .main-content .javascript span {
+  right: 5%;
+}
+.infos .main-content .react span {
   right: 5%;
 }
 
