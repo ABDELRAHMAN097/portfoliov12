@@ -1126,9 +1126,10 @@ Infos Style
 .infos .main-content .javascript .fill {
   width: 95%;
 }
-.infos .main-content .react .fill {
-  width: 75%;
+.sass.js .fill{
+  width: 14%;
 }
+
 
 .infos .main-content .html span {
   right: 10%;
