@@ -1150,7 +1150,11 @@ Infos Style
   margin-top: -15px;
   padding: 0px 60px 60px 60px;
 }
-
+/* change */
+.fa-solid{
+  font-size: 40px;
+  color: #5b03e4;
+}
 /* 
 ---------------------------------------------
 Contact Style
