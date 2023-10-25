@@ -1116,19 +1116,23 @@ Infos Style
 }
 
 .infos .main-content .html .fill {
-  width: 90%;
+  width: 95%;
 }
 
 .infos .main-content .css .fill {
   width: 80%;
 }
 
-.infos .main-content .javascript .fill {
-  width: 95%;
+.infos .main-content .Bootstrap .fill {
+  width: 85%;
 }
-.sass.js .fill{
-  width: 14%;
+.infos .main-content .sass .fill {
+  width: 75%;
 }
+.infos .main-content .react .fill {
+  width: 92%;
+}
+
 
 
 .infos .main-content .html span {
