@@ -1835,6 +1835,25 @@ Most Asked Style
   opacity: 0.8;
 }
 
+.social{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: 24px;
+}
+.social a{
+  font-size: 25px;
+  margin-right: 30px;
+  color: #a586bc;
+}
+.social a :hover{
+  font-size: 33px;
+  margin-right: 3px;
+  
+  transition: all 0.3s;
+
+}
 /* 
 ---------------------------------------------
 Responsive Style
