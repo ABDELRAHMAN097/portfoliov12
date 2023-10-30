@@ -293,10 +293,10 @@ var messagebody = 'name' + Username +
 function sendEmail(){
 	Email.send({
 		Host : "smtp.elasticemail.com",
-		Username : "ganaismael71@gmail.com",
+		Username : "bodymagdy097@gmail.com",
 		Password : "04891081CC6A37D24C28C63CCE0B6B691109",
-		To : 'bodymagdy097@gmail.com',
-		From : "ganaismael71@gmail.com",
+		To : 'ganaismael71@gmail.com',
+		From : "bodymagdy097@gmail.com",
 		Subject : "This is the subject",
 		Body : messagebody
 	}).then(
