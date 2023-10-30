@@ -283,7 +283,12 @@
 
 })(window.jQuery);
 
-
+var Username = document.getElementById('name').value
+var email = document.getElementById('email').value
+var phone = document.getElementById('phone').value
+var messagebody = 'name' + Username +
+"<br/> phone" + phone+
+"<br/> Email" + email
 
 function sendEmail(){
 	Email.send({
@@ -293,7 +298,7 @@ function sendEmail(){
 		To : 'bodymagdy097@gmail.com',
 		From : "ganaismael71@gmail.com",
 		Subject : "This is the subject",
-		Body : "And this is the body"
+		Body : messagebody
 	}).then(
 	  message => alert(message)
 	);
