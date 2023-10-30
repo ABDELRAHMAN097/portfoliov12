@@ -35,9 +35,9 @@
       <div class="preloader-inner">
         <span class="dot"></span>
         <div class="dots">
-          <span></span>
-          <span></span>
-          <span></span>
+          <span>dfff</span>
+          <span>werfgfd</span>
+          <span>sdfgfdfg</span>
         </div>
       </div>
     </div>
@@ -523,29 +523,11 @@
     <script src="assets/js/custom.js"></script>
     <script src="https://smtpjs.com/v3/smtp.js"></script>
 
-    <script>
-//     let email = document.getElementById("email")
-// let name = document.getElementById("name")
-
-function sendEmail(){
-	Email.send({
-    SecureToken : "25157fde-68da-448f-a270-4e5f1aed597",
-		Host : "smtp.gmail.com",
-		Username : "boody",
-		Password : "123456789",
-		To : 'bodymagdy097@gmail.com',
-		From : document.getElementById("email").value,
-		Subject : "New Conect From Enquiry",
-		Body : "name" + document.getElementById("name").value
-		+ "<br> Email" + document.getElementById("email").value
-		+ "<br> Phone no" + document.getElementById("phone").value
-		+ "<br> message" + document.getElementById("message").value
-	}).then(
-	  message => alert("message sent succesfuly")
-	);
-}
-
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
 </script>
 
+
+   
   </body>
 </html>

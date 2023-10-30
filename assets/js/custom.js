@@ -285,3 +285,16 @@
 
 
 
+function sendEmail(){
+	Email.send({
+		Host : "smtp.elasticemail.com",
+		Username : "ganaismael71@gmail.com",
+		Password : "04891081CC6A37D24C28C63CCE0B6B691109",
+		To : 'bodymagdy097@gmail.com',
+		From : "ganaismael71@gmail.com",
+		Subject : "This is the subject",
+		Body : "And this is the body"
+	}).then(
+	  message => alert("done")
+	);
+}
