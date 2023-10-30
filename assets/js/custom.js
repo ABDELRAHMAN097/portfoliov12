@@ -295,6 +295,6 @@ function sendEmail(){
 		Subject : "This is the subject",
 		Body : "And this is the body"
 	}).then(
-	  message => alert("done")
+	  message => alert(message)
 	);
 }
