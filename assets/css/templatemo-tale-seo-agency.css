@@ -1918,6 +1918,9 @@ body {
     padding-right: 10px;
     margin-right: 10px;
   }
+  .col-lg-8{
+    width: 100.666667%;
+  }
   .pre-header .left-info ul li a {
     font-size: 13px;
   }
