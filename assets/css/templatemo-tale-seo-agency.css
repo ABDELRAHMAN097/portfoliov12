@@ -1167,6 +1167,7 @@ Contact Style
 
 .contact-us {
   position: relative;
+  
 }
 
 .contact-us::before {
@@ -1200,63 +1201,30 @@ Contact Style
 
 .contact-us .contact-us-content #contact-form {
   padding: 60px;
+  padding-left: 100px;
+  padding-right: 100px;
   border-radius: 23px 23px 0px 0px;
   border: 1px solid #f3d7ff;
+  margin-bottom: 15px;
+  margin-left: 370px;
+  text-align: center;
+
 }
 
 #contact-form .section-heading {
   text-align: center;
 }
 
-#contact-form input {
-  width: 100%;
-  height: 46px;
-  border-radius: 23px;
-  background-color: #f9ebff;
-  border: none;
-  outline: none;
-  padding: 0px 15px;
-  font-size: 14px;
-  color: #2a2a2a;
-  font-weight: 600;
-  margin-bottom: 15px;
-}
 
-#contact-form input::placeholder {
-  color: #2a2a2a;
-}
 
-#contact-form textarea {
-  width: 100%;
-  height: 120px;
-  border-radius: 23px;
-  background-color: #f9ebff;
-  border: none;
-  outline: none;
-  padding: 15px;
-  font-size: 14px;
-  color: #2a2a2a;
-  font-weight: 600;
-  margin-bottom: 15px;
-}
 
-#contact-form textarea::placeholder {
-  color: #2a2a2a;
-}
 
-#contact-form button {
-  border: none;
-  height: 46px;
-  background-color: #5b03e4;
-  width: 100%;
-  border-radius: 23px;
-  color: #fff;
-  transition: all .4s;
-}
 
-#contact-form button:hover {
-  opacity: 0.8;
-}
+
+
+
+
+
 
 .contact-us-content .more-info {
   text-align: center;
@@ -1854,9 +1822,6 @@ Most Asked Style
   transition: all 0.3s;
 
 }
-.col-lg-8{
-  width: 100.666667%;
-}
 /* 
 ---------------------------------------------
 Responsive Style
@@ -1920,9 +1885,6 @@ body {
   .pre-header .left-info ul li {
     padding-right: 10px;
     margin-right: 10px;
-  }
-  .col-lg-8{
-    width: 100.666667%;
   }
   .pre-header .left-info ul li a {
     font-size: 13px;
