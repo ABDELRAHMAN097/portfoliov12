@@ -1803,13 +1803,16 @@ Most Asked Style
   opacity: 0.8;
 }
 
+.padd{
+  padding-top: 20px;
+}
+
 .social{
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  margin-top: 24px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 .social a{
   font-size: 25px;
