@@ -1269,6 +1269,9 @@ footer p a {
 footer p a:hover {
   color: #5b03e4;
 }
+.rowII{
+  justify-content: center;
+}
 
 /* 
 ---------------------------------------------
@@ -1806,6 +1809,7 @@ Most Asked Style
   align-items: center;
   justify-content: center;
   margin-top: 24px;
+  margin-bottom: 30px;
 }
 .social a{
   font-size: 25px;
